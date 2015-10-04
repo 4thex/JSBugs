@@ -4,8 +4,8 @@
         var second = document.querySelector("#second");    
         var result = document.querySelector("#result");
         var changeEventHandler = function(event) {
-            var firstValue = Number(first.value);
-            var secondValue = Number(second.value);
+            var firstValue = first.value;
+            var secondValue = second.value;
             result.value = firstValue + secondValue;
         };  
         first.addEventListener("input", changeEventHandler);  
