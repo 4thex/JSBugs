@@ -1,0 +1,23 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+
+input, p {
+    float: left;
+    text-align: right; 
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0;
+}
+
+div {
+    clear: both;
+    margin-bottom: 1em;
+}
+
+.bug {
+    color: red;
+}
