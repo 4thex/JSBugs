@@ -1,0 +1,60 @@
+* {
+    font-family: "Calibri", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+div.left, div.right, div.show {
+    float: left;
+}
+
+div.left, div.right {
+    width: 1em;
+    cursor: pointer;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+div.color {
+    width: 10em;
+}
+
+div.show {
+    width: 3em;
+    text-align: right;
+    padding-right: 0.5em;
+    vertical-align: bottom;
+    
+}
+
+div.left {
+    clear: left;
+}
+
+div#red .show {
+    background-color: red;
+}
+
+div#green .show {
+    background-color: green;
+}
+
+div#blue .show {
+    background-color: blue;
+}
+
+div.left, div.right, div.show {
+    padding-bottom: 0.5em;
+}
+
+div#result .show {
+    background-color: black;
+}
+
+div.show {
+    color: white;
+}
