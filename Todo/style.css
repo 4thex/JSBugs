@@ -1,0 +1,21 @@
+* {
+    font-family: "Calibri", sans-serif;
+}
+
+.input {
+    float: left;
+}
+
+.add {
+    cursor: pointer;
+    clear: left;
+}
+
+.remove {
+    cursor: pointer;
+    float: left;
+}
+
+.bug {
+    color: red;
+}

@@ -1,11 +1,9 @@
 * {
     font-family: "Calibri", sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
-body {
-    padding: 2em;
+p {
+    clear: both;
 }
 
 div.left, div.right, div.show {
@@ -23,12 +21,15 @@ div.color {
     width: 10em;
 }
 
+#result {
+    min-width: 20em;
+}
+
 div.show {
     width: 3em;
     text-align: right;
     padding-right: 0.5em;
     vertical-align: bottom;
-    
 }
 
 div.left {
@@ -53,8 +54,17 @@ div.left, div.right, div.show {
 
 div#result .show {
     background-color: black;
+    width: 10em;
+    text-align: left;
+    padding-left: 0.5em
 }
 
 div.show {
     color: white;
 }
+
+.bug {
+    color: red;
+    clear: both;
+}
+
